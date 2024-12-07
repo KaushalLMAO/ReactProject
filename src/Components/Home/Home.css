@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#homebody {
+  display: block;
+  min-height: 100vh;
+  color: white;
+}
+#smallHeader {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#smallHeader li {
+  padding: 10px;
+}
+.render {
+  margin-top: 8vh;
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
